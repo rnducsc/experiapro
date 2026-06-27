@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>ExperiaPro – FAQ</title>
+  <style>
+    :root {
+      --navy: #0d1b2a;
+      --navy2: #1b2d45;
+      --gold: #c9a84c;
+      --gold2: #e8c97a;
+      --light: #f5f3ee;
+      --white: #fff;
+      --gray: #6b7280;
+      --lgray: #e5e1d8;
+      --font: 'Georgia', serif;
+      --sans: 'Segoe UI', sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: var(--sans);
+      background: var(--light);
+      color: var(--navy);
+      line-height: 1.6;
+    }
+
+    nav {
+      background: var(--navy);
+      padding: 0 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+      box-shadow: 0 2px 12px #0006;
+    }
+
+    .logo {
+      font-family: var(--font);
+      font-size: 1.4rem;
+      color: var(--gold);
+      font-weight: bold;
+      letter-spacing: 1px;
+      text-decoration: none;
+    }
+
+    .logo span {
+      color: var(--white);
+      font-size: .8rem;
+      display: block;
+      font-family: var(--sans);
+      letter-spacing: 2px;
+      margin-top: -4px;
+      font-weight: 300;
+    }
+
+    .nav-links { display: flex; gap: 1.2rem; align-items: center; }
+    .nav-links a {
+      color: #ccc;
+      text-decoration: none;
+      font-size: .95rem;
+    }
+    .nav-links a:hover { color: var(--gold); }
+
+    main { max-width: 900px; margin: 0 auto; padding: 3rem 1.25rem 4rem; }
+    .page-title {
+      font-family: var(--font);
+      font-size: clamp(1.8rem, 3vw, 2.4rem);
+      margin-bottom: .7rem;
+      color: var(--navy);
+    }
+    .intro {
+      color: var(--gray);
+      margin-bottom: 2rem;
+      max-width: 700px;
+    }
+
+    .faq-list { display: grid; gap: 1rem; }
+    .faq-item {
+      background: var(--white);
+      border-radius: 10px;
+      padding: 1.2rem 1.3rem;
+      box-shadow: 0 2px 10px #0001;
+      border-left: 4px solid var(--gold);
+    }
+    .faq-item h3 { font-size: 1rem; margin-bottom: .4rem; color: var(--navy); }
+    .faq-item p { color: var(--gray); font-size: .95rem; }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 2rem;
+      color: var(--navy);
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .back-link:hover { color: var(--gold); }
+  </style>
+</head>
+<body>
+  <nav>
+    <a class="logo" href="index.html">ExperiaPro<span>Competency · Experience · Certification</span></a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="faq.html">FAQ</a>
+    </div>
+  </nav>
+
+  <main>
+    <h1 class="page-title">Frequently Asked Questions</h1>
+    <p class="intro">Here are some of the most common questions about ExperiaPro and how the platform supports competency certification.</p>
+
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3>What is ExperiaPro?</h3>
+        <p>ExperiaPro is a structured experiential learning and certification framework that connects real-world challenges, emerging professionals, and accreditors.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Who can use the platform?</h3>
+        <p>Problem owners, participants, and accreditors can all participate in the workflow depending on their role and objectives.</p>
+      </div>
+      <div class="faq-item">
+        <h3>How does certification work?</h3>
+        <p>Participants complete assigned work, demonstrate competency, and receive a certification record with feedback based on defined standards.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Is the framework suitable for different industries?</h3>
+        <p>Yes. ExperiaPro supports a broad range of applied projects across engineering, software, operations, project management, and data-related work.</p>
+      </div>
+    </div>
+
+    <a class="back-link" href="index.html">← Return to the home page</a>
+  </main>
+</body>
+</html>
